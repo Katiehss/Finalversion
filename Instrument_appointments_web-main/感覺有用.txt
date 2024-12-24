@@ -1,0 +1,5 @@
+eventClick: function(info) {
+            if (confirm('確定要刪除這個事件嗎?')) {
+                info.event.remove()
+            }
+        }
